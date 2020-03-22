@@ -34,8 +34,17 @@
 #
 # print(df)
 
-import pandas as pd
+# import pandas as pd 데이타프레임 data추가 엑셀에 읽고 쓰기
+#
+# df = pd.read_excel("test.xlsx")
+# df = df.set_index('date')
+# f_title = df["d_title"] * 2
+# df["f_title"] = f_title
+# df.to_excel("out.xlsx")
+# print(df.iloc[2])
 
-df = pd.read_excel("test.xlsx")
-df = df.set_index('date')
-print(df)
+# import pandas as pd
+# url = "https://finance.naver.com/item/sise_day.nhn?code=066570"
+# df = pd.read_html(url)
+# df[0] = df[0].dropna(axis=0)
+# df[0].to_excel("out.xlsx")
